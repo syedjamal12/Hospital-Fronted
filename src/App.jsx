@@ -22,7 +22,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:4000/api/v1/user/patient/me",
+          "https://vast-sweater-cod.cyclic.app/api/v1/user/patient/me",
           {
             withCredentials: true,
           }
